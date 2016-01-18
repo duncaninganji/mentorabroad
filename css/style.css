@@ -23,9 +23,9 @@ a:hover{text-decoration: none;}
 
 h1,h2,h3,h4,h5,h6{ font-family:'Source Sans Pro', sans-serif}
 
-h1{font-size:50px; font-weight: 200; color: #555; margin-bottom: 20px;}
-h2{font-size: 30px; font-weight: 300; color:#444; margin: 30px 0}
-h3{font-size: 20px; font-weight: 400; margin: 20px 0;}
+h1{font-size:50px; font-weight: 200; color: #555; margin-bottom: 16px;}
+h2{font-size: 30px; font-weight: 300; color:#444; margin: 12px 0}
+h3{font-size: 20px; font-weight: 400; margin: 0px 0;}
 h4{font-size:18px; font-weight: 400}
 
 /* 
@@ -215,13 +215,22 @@ Carousel
 .logo img{
     height: 72px;
 }
-.social img {
+.social img{
     width: 36px;
 }
 .social a:hover img{
     opacity: 0.4;
     filter: alpha(opacity=40); /* For IE8 and earlier */
 }
+.mentor img{
+    max-width: 80%;
+}
+a.profile{
+    color: #ff6666
+}
+/*p.major{
+    color: #919493;
+}*/
 
 /*Footer
 ========================*/
